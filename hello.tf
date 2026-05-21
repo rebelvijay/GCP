@@ -26,7 +26,7 @@ variable "zone" {
 }
 
 variable "vm_name" {
-  default = "terraform-vm"
+  default = "Junki-vm2"
 }
 
 variable "machine_type" {
@@ -38,7 +38,7 @@ variable "ssh_user" {
 }
 
 variable "public_key_path" {
-  default = "/var/jenkins_home/.ssh/id_rsa.pub"
+  default = "~/.ssh/id_rsa.pub"
 }
 
 # =========================
