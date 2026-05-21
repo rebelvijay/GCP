@@ -38,7 +38,7 @@ variable "ssh_user" {
 }
 
 variable "public_key_path" {
-  default = "~/.ssh/id_rsa.pub"
+  default = "/var/jenkins_home/.ssh/id_rsa.pub"
 }
 
 # =========================
