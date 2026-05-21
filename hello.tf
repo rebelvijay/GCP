@@ -26,7 +26,7 @@ variable "zone" {
 }
 
 variable "vm_name" {
-  default = "Junki-vm2"
+  default = "Junki-vm3"
 }
 
 variable "machine_type" {
